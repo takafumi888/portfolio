@@ -204,6 +204,8 @@ body.is-fixed {
 
 .about__img {
   margin-bottom: 32px;
+  width: 100%;
+  height: 100%;
 }
 .about__img img {
   -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
@@ -408,6 +410,11 @@ body.is-fixed {
             flex-direction: row-reverse;
     gap: 40px;
   }
+
+  .about__container>img{
+    
+  }
+
   .flow__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
